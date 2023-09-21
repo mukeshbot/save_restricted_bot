@@ -28,7 +28,7 @@ async def sett(event):
         if os.path.exists(f'{event.sender_id}.jpg'):
             os.remove(f'{event.sender_id}.jpg')
         os.rename(path, f'./{event.sender_id}.jpg')
-        await t.edit("Temporary thumbnail saved!")
+        await t.edit("Temporary thumbnail saved😊")
         
 @Invix.on(events.callbackquery.CallbackQuery(data="rem"))
 async def remt(event):  
@@ -36,13 +36,13 @@ async def remt(event):
     await event.edit('Trying.')
     try:
         os.remove(f'{event.sender_id}.jpg')
-        await event.edit('Removed!')
+        await event.edit('Removed😡')
     except Exception:
-        await event.edit("No thumbnail saved.")                        
+        await event.edit("No thumbnail saved🥺.")                        
   
 @Invix.on(events.NewMessage(incoming=True, pattern=f"{S}"))
 async def start(event):
-    text = "👋 Hi, I am 'Save Restricted Content ' bot.\n\n✅ Send me the Link of any message of Restricted Channels to Clone it here.\nFor private channel's messages, send the Invite Link first.\n\n**👨🏻‍💻Owner**: @MRSATYAM01\n**support:** http://t.me/s_r_c_help_bot"
+    text = "👋 Hi, I am 'Save Restricted Content ' bot.\n\n✅ Send me the Link of any message of Restricted Channels to Clone it here.\nFor private channel's messages, send the Invite Link first.\n\n**👨🏻‍💻Owner**: @mukesh_k_017\n**support:** http://t.me/mukesh_course_hacker_bot"
     #await start_srb(event, text)
     '''
     await event.reply(text, 
@@ -56,6 +56,6 @@ async def start(event):
                       buttons=[
                               [Button.inline("SET THUMB.", data="set"),
                                Button.inline("REM THUMB.", data="rem")],
-                              [Button.url("⭐ MR SATYAM ⭐", url="https://telegram.dog/MRSATYAM01")]])
+                              [Button.url("⭐ Mukesh kumawat ⭐", url="https://telegram.dog/mukesh_k_017")]])
     
     
