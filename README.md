@@ -11,7 +11,7 @@ A stable telegram bot to get restricted messages with custom thumbnail support ,
 - supports text and webpage media messages
 - Faster speed
 - Forcesubscribe available 
-- `/batch` - (For owner only) Use this command to save upto 100 files from a pvt or public restricted channel at once.
+- `/batch` - (For owner only) Use this command to save upto 100000 files from a pvt or public restricted channel at once.
 - `/cancel` -  Use this to stop batch
 - Time delay is added to avoid FloodWait and keep user account safe. 
 
@@ -26,14 +26,27 @@ A stable telegram bot to get restricted messages with custom thumbnail support ,
 
 # Get API & PYROGRAM string session from:
  
-API: [API scrapper Bot](https://t.me/USETGSBOT) or [Telegram.org](https://my.telegram.org/auth)
+API ID AND API HASH: [Telegram.org](https://my.telegram.org/auth)
 
-PYROGRAM SESSION: [SessionGen Bot](https://telegram.me/String_SessionRobot) or [![Run on Repl.it](https://replit.com/badge/github/vasusen-code/saverestrictedcontentbot)](https://replit.com/@levinalab/Session-Generator#main.py)
+PYROGRAM SESSION: [SessionGen Bot](https://telegram.me/String_SessionRobot) 
 
-BOT TOKEN: @Botfather on telegram
+BOT TOKEN: [@Botfather on telegram](https://telegram.me/BotFather)
+
+AUTH: [OWER ID](https://telegram.me/useridinfobot)
 
 # made by [Mukesh kumawat](https://telegram.me/mukesh_k_017) 
 
+# Deploy
+
+Deploy your bot on `heroku`
+
+» Method - 1 all user:
+- Star the repo, and fork it in desktop mode
+- Go to settings of your forked repo
+- Rename your repo by any other name
+- Click on  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+ » Method - 2 only Repo Owner:
  
 # Deploy on heroku
 
