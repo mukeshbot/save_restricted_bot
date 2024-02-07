@@ -16,8 +16,8 @@ logging.getLogger("telethon").setLevel(logging.WARNING)
 botStartTime = time.time()
 
 
-print("Successfully deployed!")
-print("By Mukesh kumawat • Mukesh kumawat")
+print("Successfully Started!")
+print("By RAMAN • RAMAN JANGIR")
 
 if __name__ == "__main__":
     from . import bot
